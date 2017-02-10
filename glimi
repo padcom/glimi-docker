@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker run -it --rm -v $(pwd):/tmp padcom/glimi -file /tmp/$1 -outputdir /tmp -debug
